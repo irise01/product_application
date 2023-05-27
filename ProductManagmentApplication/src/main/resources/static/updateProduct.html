@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update Product Details</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="/js/product.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+		<h1 id="h1head">Update Product</h1>
+		<div id="userformId">
+		<label>Product Id</label> <input type="text" name="pid"
+				id="pId" readonly><br><br>
+		
+			<label>Product Name</label> <input type="text" name="pname"
+				id="pnameId" ><br>
+			<br> <label>Product Qty</label> <input type="text"
+				name="pqty" id="pqtyId"><br>
+			<br> <label>Product Price</label> <input type="number"
+				name="pprice" id="ppriceId"><br>
+			<br> <input type="button" value="Update Product"
+				id="savebuttonId" onclick="updateProductById();">
+		</div>
+	</div>
+
+</body>
+</html>

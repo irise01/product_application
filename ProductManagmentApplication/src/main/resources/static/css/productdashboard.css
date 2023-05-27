@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #c1cbc8;
+	border: 2px dashed #c1cbc8;
+}
+
+#tablecenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+th {
+	background-color: rgb(4, 170, 109);
+}
+
+table, th, td {
+	border: 1px solid;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 20px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+	background-color: white;
+}
+
+td:hover {
+	background-color: yellow;
+}
+td>button:nth-child(1) {
+	padding: 8px;
+	background-color: #cf6565;
+	border: 1px solid #cf6565;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+td>button:nth-child(1):hover {
+	background-color: #da4d22;
+}
+
+td>button:nth-child(2):hover {
+	background-color: #e55b16;
+}
+
+td>button:nth-child(2) {
+	padding: 8px;
+	background-color: #d87c4e;
+	border: 1px solid #d87c4e;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+h1 {
+
+	margin:auto;
+	text-align:center;
+	color: maroon;
+	background-color:#7191c3;
+	border-radius: 10px;
+}
+.btnde {
+	padding: 8px;
+	background-color: #d87c4e;
+	border: 1px solid #d87c4e;
+	font-weight: 700;
+	cursor: pointer;
+}
+.btnde>a{
+text-decoration:none;
+ color: black;
+}
+.btnde:hover {
+	background-color: #e55b16;
+}
+button#addproductId {
+    background: blue;
+}
